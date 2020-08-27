@@ -1,28 +1,29 @@
 html, body {
-    background: #2980B9;
-    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
-    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
-    min-width: 400px;
-    text-align: center;
-  }
-  
-  #ville {
-    text-transform: capitalize;
-  }
-  
-  #temperature {
-    font-size: 4em;
-  }
-  
-  #changer {
-    background: rgba(178, 223, 251, .3);
-    cursor: pointer;
-  }
+    
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  min-width: 400px;
+  text-align: center;
+}
 
-  .row {
-      width: 300px;
-  }
+#ville {
+  text-transform: capitalize;
+}
 
-  .container {
-      text-align: center;
-  }
+#temperature {
+  font-size: 4em;
+}
+
+#changer {
+  background: rgba(178, 223, 251, .3);
+  cursor: pointer;
+}
+
+.row {
+    width: 300px;
+}
+
+.container {
+width: 600px;
+margin: auto;
+text-align: center;
+}
